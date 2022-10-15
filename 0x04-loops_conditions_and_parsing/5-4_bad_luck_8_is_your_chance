@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#Loop using whike prints bad luck, good luck and best School
+
+i=1
