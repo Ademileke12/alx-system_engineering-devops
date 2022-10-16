@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+#Displays the files in current directory excluding hidden files
+
+for i in ls
+do
+ls
+done
