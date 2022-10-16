@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+#Displays word at number 4 9 ans 17
+
+i=0
+while [ $i -lt 21 ]
+do
+        echo $i
+        if [ $i -eq 4 ]
+        then
+                echo "bad luck from china"
+        elif [ $i -eq 9 ]
+        then
+                echo "bad luck from japan"
+        elif [ $i -eq 17 ]
+        then
+                echo "bad luck from Italy"
+        fi
+        ((i+=1))
+done
