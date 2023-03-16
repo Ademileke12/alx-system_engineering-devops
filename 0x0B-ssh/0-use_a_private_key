@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
-# Connects to my Holberton server.
-ssh -i ~/.ssh/holberton ubuntu@104.196.168.90
+# Connects to server 54.237.14.184 with private key ~/.ssh/school
+
+ssh -i ~/alx-system_engineering-devops/0x0B-ssh/school ubuntu@54.237.14.184
